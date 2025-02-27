@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-rquickjs = { version = "0.9.0", features = ["full-async"] }
+rquickjs = { git = "https://github.com/DelSkayn/rquickjs.git", features = ["full-async"] }
 tokio = { version = "1.43.0", features = ["macros", "rt"] }
